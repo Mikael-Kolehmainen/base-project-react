@@ -4,6 +4,12 @@ import Home from "./routes/home/home.component";
 import PrivateRoute from "./routes/privateRoute.component";
 import Error from "./routes/error/error.component";
 
+/*
+  This is the main file of the application, in here I have created a routing system.
+  The routing system will determine based on the url which page should be shown.
+  The pages are stored in separate files under the ./routes folder.
+*/
+
 const App = () => {
   return (
     <Routes>
