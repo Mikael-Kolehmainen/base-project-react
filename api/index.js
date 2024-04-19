@@ -2,6 +2,10 @@ const express = require("express");
 const cors = require("cors");
 const { GetExample } = require("./controllers/Example");
 
+/*
+  This is the main file for the backend api where the endpoints should be defined.
+*/
+
 const app = express();
 const port = 3001;
 

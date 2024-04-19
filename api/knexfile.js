@@ -1,5 +1,10 @@
 require("dotenv").config();
 
+/*
+  This is the configuration file for Knex. Knex is a query builder and an ORM.
+  Here Knex has been configured to work with a mysql database.
+*/
+
 module.exports = {
   client: "mysql",
   connection: {
