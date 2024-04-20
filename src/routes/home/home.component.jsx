@@ -8,9 +8,9 @@ import { getExample } from "../../backend/backend";
 
 const Home = () => {
   // Here is an example on how to fetch data using backend files from the db.
-  const [example, setExample] = useState<any[] | undefined>([]);
-  const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [isError, setIsError] = useState<boolean>(false);
+  const [example, setExample] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   useEffect(() => {
     const fetchExample = async () => {

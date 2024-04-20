@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
   component is defined as '*'.
 */
 
-const Error = ({ title, message, url }: { title: string; message: string; url: string }) => {
+const Error = ({ title, message, url }) => {
   return (
     <section>
       <article>

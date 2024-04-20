@@ -11,7 +11,7 @@ import { BrowserRouter } from "react-router-dom";
   that should affect the entire application.
 */
 
-const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>

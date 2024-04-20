@@ -1,7 +1,7 @@
 <h1>base-project-react</h1>
 <h2>About</h2>
 <p style='font-size: 16px; text-align: justify; text-justify: inter-word;'>
-  This is my foundation for all my React web projects. It's written in TypeScript
+  This is my foundation for all my React web projects. It's written in JavaScript
   and also includes the backend in the same application for simplicity. I have
   also added comments to the code. Prettier is configured to work in this application.
   This README file also serves as a template for my other projects.
@@ -15,7 +15,7 @@
 </p>
 <h2>Project Languages</h2>
 <ul style='font-size 16px;'>
-  <li>TypeScript</li>
+  <li>JavaScript</li>
   <li>CSS3</li>
 </ul>
 <h2>Project Libraries</h2>
