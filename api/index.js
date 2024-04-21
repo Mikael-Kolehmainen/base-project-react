@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const bodyParser = require("body-parser");
 const { GetExample } = require("./controllers/Example");
 
 /*
@@ -10,6 +11,7 @@ const app = express();
 const port = 3001;
 
 app.use(cors());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/get-example", (req, res) => {
   (async () => {
