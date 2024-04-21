@@ -3,7 +3,7 @@ import { getExample } from "../../backend/backend";
 
 /*
   This is the Home (or the Main) page. This component will always be the landing
-  page and is defined as the landing page in App.tsx, the route is '/'.
+  page and is defined as the landing page in App.jsx, the route is '/'.
 */
 
 const Home = () => {
