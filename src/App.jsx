@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import "./root-variables.css";
 import Home from "./routes/home/home.component";
 import PrivateRoute from "./routes/privateRoute.component";
 import Error from "./routes/error/error.component";

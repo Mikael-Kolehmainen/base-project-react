@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getExample } from "../../backend/backend";
+import "./home.styles.css";
+import Icon from "../../components/icon/icon.component";
 
 /*
   This is the Home (or the Main) page. This component will always be the landing

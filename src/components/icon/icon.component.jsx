@@ -1,10 +1,10 @@
-import { IconContainer, StyledIcon } from "./icon.styles";
+import "./icon.styles.css";
 
-const Icon = ({ iconPath, onClick }) => {
+const Icon = ({ iconPath, onClick, width = "70px", height = "70px" }) => {
   return (
-    <IconContainer className="icon" onClick={onClick}>
-      <StyledIcon iconPath={iconPath} />
-    </IconContainer>
+    <div className="icon" onClick={onClick} style={{ width: width, height: height }}>
+      <i style={{ background: `url(${iconPath}) no-repeat center` }} />
+    </div>
   );
 };
 
